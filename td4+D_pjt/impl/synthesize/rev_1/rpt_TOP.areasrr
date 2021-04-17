@@ -1,0 +1,92 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\app\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HIROMICHI-PC
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW1N_1QFN48-6 (GoWin)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   TOP   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     77                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block TOP:	77 (25.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          115                100 %                
+MUX2_LUT5     4                  100 %                
+MUX2_LUT6     1                  100 %                
+ALU           63                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block TOP:	183 (60.40 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Gowin_PLL   ########
+Instance path:   TOP.Gowin_PLL                                 
+===============================================================
+------------------------------------------------------------
+########   Utilization report for  cell:   VGAMod   ########
+Instance path:   TOP.VGAMod                                 
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     41                 53.2 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block TOP.VGAMod:	41 (13.53 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          57                 49.6 %               
+MUX2_LUT5     2                  50 %                 
+MUX2_LUT6     1                  100 %                
+ALU           40                 63.5 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block TOP.VGAMod:	100 (33.00 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   td4_logic   ########
+Instance path:   TOP.td4_logic                                 
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     13                 16.9 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block TOP.td4_logic:	13 (4.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          58                 50.4 %               
+MUX2_LUT5     2                  50 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block TOP.td4_logic:	60 (19.80 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

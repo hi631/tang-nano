@@ -1,0 +1,7 @@
+@W: FA239 :"c:\kitahard\tang_nano\td4+d_pjt\src\td4_logic.v":24:15:24:27|ROM OP[3:1] (in view: work.td4_logic(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\kitahard\tang_nano\td4+d_pjt\src\td4_logic.v":23:15:23:27|ROM IM[3:0] (in view: work.td4_logic(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\kitahard\tang_nano\td4+d_pjt\src\td4_logic.v":24:15:24:27|ROM OP[3:1] (in view: work.td4_logic(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\kitahard\tang_nano\td4+d_pjt\src\td4_logic.v":23:15:23:27|ROM IM[3:0] (in view: work.td4_logic(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT246 :"c:\kitahard\tang_nano\td4+d_pjt\src\gowin_pll\gowin_pll.v":21:4:21:11|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock TOP|XTAL_IN with period 10.00ns. Please declare a user-defined clock on port XTAL_IN.
+@W: MT420 |Found inferred clock Gowin_PLL|clkoutd_inferred_clock with period 7.62ns. Please declare a user-defined clock on net chip_pll.LCD_CLK_c.

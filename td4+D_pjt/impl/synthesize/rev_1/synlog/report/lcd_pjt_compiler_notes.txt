@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"C:\app\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\lib\generic\gw1n.v":2181:7:2181:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\gowin_pll\gowin_pll.v":8:7:8:15|Synthesizing module Gowin_PLL in library work.
+@N: CG364 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\VGAMod.v":1:7:1:12|Synthesizing module VGAMod in library work.
+@N: CG364 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\td4_logic.v":1:7:1:15|Synthesizing module td4_logic in library work.
+@N: CL189 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\td4_logic.v":36:3:36:8|Register bit B[0] is always 0.
+@N: CL189 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\td4_logic.v":36:3:36:8|Register bit B[1] is always 0.
+@N: CL189 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\td4_logic.v":36:3:36:8|Register bit B[2] is always 0.
+@N: CL189 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\td4_logic.v":36:3:36:8|Register bit B[3] is always 0.
+@N: CG364 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\TOP.v":1:7:1:9|Synthesizing module TOP in library work.
+@N: CL159 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\VGAMod.v":2:28:2:30|Input CLK is unused.
+@N|Running in 64-bit mode
+

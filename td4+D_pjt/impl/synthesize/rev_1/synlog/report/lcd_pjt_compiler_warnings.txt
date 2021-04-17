@@ -1,0 +1,7 @@
+@W: CG1340 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\VGAMod.v":72:16:72:19|Index into variable regdat could be out of range ; a simulation mismatch is possible.
+@W: CG1340 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\VGAMod.v":72:16:72:19|Index into variable regdat could be out of range ; a simulation mismatch is possible.
+@W: CL169 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\VGAMod.v":44:4:44:9|Pruning unused register Data_R[9:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\VGAMod.v":44:4:44:9|Pruning unused register Data_G[9:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\VGAMod.v":44:4:44:9|Pruning unused register Data_B[9:0]. Make sure that there are no unused intermediate registers.
+@W: CL247 :"C:\kitahard\Tang_Nano\td4+D_pjt\src\td4_logic.v":4:23:4:24|Input port bit 3 of IN[3:0] is unused
+

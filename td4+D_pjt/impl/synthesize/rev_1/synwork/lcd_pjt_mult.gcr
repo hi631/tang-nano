@@ -1,0 +1,87 @@
+i count_i[22]
+m 0 0
+u 4 13
+n ckid0_0 {t:td4_logic.PC[3:0].C} Derived clock on input (not legal for GCC)
+p {t:count[22:0].Q[22]}{t:count_derived_clock[22].I[0]}{t:count_derived_clock[22].OUT[0]}{t:un1_count.I[0]}{t:un1_count.OUT[0]}{t:td4_logic.CLOCK}{p:td4_logic.CLOCK}{t:td4_logic.PC[3:0].C}
+e ckid0_0 {t:td4_logic.PC[3:0].C} sdffr
+d ckid0_1 {t:count[22:0].Q[22]} sdffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i chip_pll.clkoutd_i
+m 0 0
+u 2 32
+p {t:chip_pll.pll_inst.CLKOUTD}{t:chip_pll.clkoutd_inferred_clock.I[0]}{t:chip_pll.clkoutd_inferred_clock.OUT[0]}{p:chip_pll.clkoutd}{t:chip_pll.clkoutd}{t:D1.PixelClk}{p:D1.PixelClk}{t:D1.Lcnt[15:0].C}
+e ckid0_2 {t:D1.Lcnt[15:0].C} dffr
+c ckid0_2 {t:chip_pll.pll_inst.CLKOUTD} PLL Unsupported/too complex instance on clock path
+i XTAL_IN
+m 0 0
+u 1 23
+p {p:XTAL_IN}{t:count[22:0].C}
+e ckid0_3 {t:count[22:0].C} sdffr
+c ckid0_3 {p:XTAL_IN} port Unsupported/too complex instance on clock path
+i count[21]
+m 0 0
+u 0 0
+i count[20]
+m 0 0
+u 0 0
+i count[19]
+m 0 0
+u 0 0
+i count[18]
+m 0 0
+u 0 0
+i count[17]
+m 0 0
+u 0 0
+i count[16]
+m 0 0
+u 0 0
+i count[15]
+m 0 0
+u 0 0
+i count[14]
+m 0 0
+u 0 0
+i count[13]
+m 0 0
+u 0 0
+i count[12]
+m 0 0
+u 0 0
+i count[11]
+m 0 0
+u 0 0
+i count[10]
+m 0 0
+u 0 0
+i count[9]
+m 0 0
+u 0 0
+i count[8]
+m 0 0
+u 0 0
+i count[7]
+m 0 0
+u 0 0
+i count[6]
+m 0 0
+u 0 0
+i count[5]
+m 0 0
+u 0 0
+i count[4]
+m 0 0
+u 0 0
+i count[3]
+m 0 0
+u 0 0
+i count[2]
+m 0 0
+u 0 0
+i count[1]
+m 0 0
+u 0 0
+i count[0]
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

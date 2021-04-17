@@ -1,0 +1,135 @@
+# Sat Apr 17 10:02:28 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: C:\app\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HIROMICHI-PC
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2020q1p1, Build 004R, Built Jun 18 2020 10:25:53, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\kitahard\Tang_Nano\td4+D_pjt\impl\synthesize\rev_1\lcd_pjt_scck.rpt 
+See clock summary report "C:\kitahard\Tang_Nano\td4+D_pjt\impl\synthesize\rev_1\lcd_pjt_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 221MB peak: 221MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 221MB peak: 221MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 221MB peak: 221MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 221MB peak: 221MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 221MB peak: 221MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                Requested     Requested     Clock                          Clock                     Clock
+Level     Clock                                Frequency     Period        Type                           Group                     Load 
+-----------------------------------------------------------------------------------------------------------------------------------------
+0 -       TOP|XTAL_IN                          391.8 MHz     2.552         inferred                       Autoconstr_clkgroup_0     23   
+1 .         TOP|count_derived_clock[22]        391.8 MHz     2.552         derived (from TOP|XTAL_IN)     Autoconstr_clkgroup_0     13   
+                                                                                                                                         
+0 -       Gowin_PLL|clkoutd_inferred_clock     208.3 MHz     4.800         inferred                       Autoconstr_clkgroup_1     32   
+=========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                     Clock     Source                             Clock Pin           Non-clock Pin     Non-clock Pin      
+Clock                                Load      Pin                                Seq Example         Seq Example       Comb Example       
+-------------------------------------------------------------------------------------------------------------------------------------------
+TOP|XTAL_IN                          23        XTAL_IN(port)                      count[22:0].C       -                 -                  
+TOP|count_derived_clock[22]          13        count[22:0].Q[22](sdffr)           td4_logic.C.C       -                 un1_count.I[0](inv)
+                                                                                                                                           
+Gowin_PLL|clkoutd_inferred_clock     32        chip_pll.pll_inst.CLKOUTD(PLL)     D1.Pcnt[15:0].C     -                 -                  
+===========================================================================================================================================
+
+@W: MT529 :"c:\kitahard\tang_nano\td4+d_pjt\src\top.v":32:4:32:9|Found inferred clock TOP|XTAL_IN which controls 23 sequential elements including count[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Found inferred clock Gowin_PLL|clkoutd_inferred_clock which controls 32 sequential elements including D1.Lcnt[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 55 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 13 clock pin(s) of sequential element(s)
+0 instances converted, 13 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks =================================
+Clock Tree ID     Driving Element               Drive Element Type     Fanout     Sample Instance
+-------------------------------------------------------------------------------------------------
+@KP:ckid0_2       chip_pll.pll_inst.CLKOUTD     PLL                    32         D1.Lcnt[15:0]  
+@KP:ckid0_3       XTAL_IN                       port                   23         count[22:0]    
+=================================================================================================
+=============================================================== Gated/Generated Clocks ===============================================================
+Clock Tree ID     Driving Element       Drive Element Type     Unconverted Fanout     Sample Instance       Explanation                               
+------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       count[22:0].Q[22]     sdffr                  13                     td4_logic.PC[3:0]     Derived clock on input (not legal for GCC)
+======================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\kitahard\Tang_Nano\td4+D_pjt\impl\synthesize\rev_1\lcd_pjt.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 222MB peak: 222MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 222MB peak: 222MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 222MB peak: 222MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 224MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Apr 17 10:02:30 2021
+
+###########################################################]
