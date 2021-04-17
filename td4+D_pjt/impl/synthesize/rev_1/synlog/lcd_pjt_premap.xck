@@ -1,0 +1,3 @@
+ckid0_0:@|S:count[22:0].Q[22]@|E:td4_logic.PC[3:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:chip_pll.pll_inst.CLKOUTD@|E:D1.Lcnt[15:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
+ckid0_3:@|S:XTAL_IN@|E:count[22:0]@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3

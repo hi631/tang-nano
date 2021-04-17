@@ -1,0 +1,22 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO106 :"c:\kitahard\tang_nano\td4+d_pjt\src\td4_logic.v":24:15:24:27|Found ROM OP[3:1] (in view: work.td4_logic(verilog)) with 16 words by 3 bits.
+@N: MO106 :"c:\kitahard\tang_nano\td4+d_pjt\src\td4_logic.v":23:15:23:27|Found ROM IM[3:0] (in view: work.td4_logic(verilog)) with 16 words by 4 bits.
+@N: MO231 :"c:\kitahard\tang_nano\td4+d_pjt\src\top.v":32:4:32:9|Found counter in view:work.TOP(verilog) instance count[22:0] 
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[4] (in view: work.TOP(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[1] (in view: work.TOP(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[2] (in view: work.TOP(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[3] (in view: work.TOP(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[8] (in view: work.TOP(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[5] (in view: work.TOP(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[6] (in view: work.TOP(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[7] (in view: work.TOP(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\kitahard\tang_nano\td4+d_pjt\src\vgamod.v":29:4:29:9|Replicating instance D1.Pcnt[9] (in view: work.TOP(verilog)) with 6 loads 1 time to improve timing.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock TOP|count_derived_clock[22] with period 10.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
