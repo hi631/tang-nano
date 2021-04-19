@@ -26,4 +26,4 @@ of TD4.<br>
 <br>
 @It became 78 LUT without LCD.<br>
 <br>
-[‚s‚c‚S^‚s‚c‚W] (https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/159764/023e622e-f235-2d81-3280-4e3bd058e88b.jpeg)</p>
+[[‚s‚c‚S^‚s‚c‚W] ](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/159764/023e622e-f235-2d81-3280-4e3bd058e88b.jpeg)</p>
