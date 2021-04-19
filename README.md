@@ -1,12 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="ja">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<meta name="GENERATOR" content="JustSystems Homepage Builder Version 15.0.1.0 for Windows">
-<title></title>
-</head>
-<body>
 <p>What is # TD4?<br>
 The name of the CPU written in the book &quot;How to create a CPU&quot;.<br>
 Approximate performance is as follows.<br>
@@ -34,5 +25,3 @@ Added JPM, CALL, RET<br>
 It became 78 LUT without LCD.<br>
 <br>
 ! [Image31.jpg] (https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/159764/023e622e-f235-2d81-3280-4e3bd058e88b.jpeg) </p>
-</body>
-</html>
