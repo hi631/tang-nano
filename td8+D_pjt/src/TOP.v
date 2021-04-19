@@ -16,7 +16,7 @@ module TOP
         .clkoutd(CLK_PIX),  //output clkoutd    // 10M <- 33.33M
         .clkin(XTAL_IN)     //input clkin
     );	
-
+/*
     // LCD
 	assign		LCD_CLK	= CLK_PIX;
     wire [2:0] regsel;
@@ -26,7 +26,7 @@ module TOP
 		.PixelClk(CLK_PIX), .LCD_DE(LCD_DEN), .LCD_HSYNC(LCD_HYNC), .LCD_VSYNC(LCD_SYNC),
 		.LCD_B(LCD_B), .LCD_G(LCD_G),.LCD_R(LCD_R), 
         .regsel(regsel), .regdat(regdat) );
-
+*/
     // TD4
 	reg [27:0] count;
     always @ (posedge XTAL_IN)
