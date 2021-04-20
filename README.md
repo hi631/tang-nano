@@ -38,9 +38,8 @@ of TD4.<br>
 　However, a decrease in operating speed and a separate ROM area are required.<br>
 　The decrease in operating speed will be okay if the 8080 operates at 80 MHz.<br>
 　As for ROM, Flash can be used for GW1N, so it does not overwhelm resources.<br>
-　Main specifications: LUT4 1152, Flip-Flop 864, BSRAM (bits) 72K, USER
-Flash (bits) 96K, PLLs + DLLs 1 + 0, Core voltage 1.2V<br>
-I　n this configuration, 342 LUT is used. <br>
+　Main specifications: LUT4 1152, Flip-Flop 864, BSRAM (bits) 72K, USER　Flash (bits) 96K<br>
+　this configuration, 342 LUT is used. <br>
 <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/159764/76c235fb-6daf-4029-eb05-e91393425104.jpeg" border="0"></p>
 <p>For details, see the following page (in Japanese) <br>
 <a href="https://qiita.com/hi631/items/d68c3b40c118588723f3">Run Basic with Tang-Nano</a> <font size="-1"><b><span style="color: rgb(0, 0, 0); font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 245, 245); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><br>
