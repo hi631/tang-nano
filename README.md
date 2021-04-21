@@ -23,7 +23,6 @@ of TD4.<br>
 　　Command word length 12 bits<br>
 　Increased instruction expansion registers to 3 (A, B, S)<br>
 　Added JPM, CALL, RET<br>
-<br>
 　It became 78 LUT without LCD.<br>
 <p><img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/159764/023e622e-f235-2d81-3280-4e3bd058e88b.jpeg" width="640" height="220" border="0"></p>
 <p>For details, see the following page (in Japanese) <br>
